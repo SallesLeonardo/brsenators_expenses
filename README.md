@@ -12,7 +12,7 @@ The project showcased a simple, yet efficient ETL (Extract, Transform, Load) pip
 
 ## Data Mining and Analysis
 
-The project strategically employed data mining techniques to uncover spending trends and patterns across different dimensions. By analyzing the data based on political parties, states, expense categories, and suppliers, the project provided valuable insights into senators' spending behaviors.
+The project employed data mining techniques to uncover spending trends and patterns across different dimensions. By analyzing the data based on political parties, states, expense categories and suppliers, the project provided valuable insights into senators' spending behaviors.
 
 ## Interactive Visualization
 
@@ -20,16 +20,17 @@ The final deliverable of this project was an interactive PowerBI dashboard. This
 
 ## Folder Structure
 
-- **data**: Contains the structured factual table dataset obtained from the Senate's website.
+- **raw_data**: Contains the structured factual table dataset obtained from the Senate's website.
 - **notebooks**: Jupyter notebooks detailing data processing, enrichment, analysis, and PowerBI integration.
 - **sql_queries**: SQL queries used for data transformation and loading.
-- **images**: Images used in the Jupyter notebooks or the PowerBI dashboard.
 
 ## Usage
 
-The Jupyter notebooks within the **notebooks** folder provide a step-by-step walkthrough of data processing, analysis, and visualization. The SQL queries in the **sql_queries** folder were used for data transformation and loading into the MySQL database.
+The Jupyter notebooks within the **notebooks** folder provide a step-by-step walkthrough of data processing and analysing up to the export to MySQL database. The SQL queries in the **sql_queries** folder were used in MySQL workbench for querying, transforming and loading into the MySQL database, as well as exporting it in CSV format for later upload into PowerBI desktop.
 
-Feel free to explore, contribute, and adapt the codebase for your analytics needs.
+All the ETL process was performed in the local machine.
+
+Feel free to explore. For contributions contact the author.
 
 ---
 

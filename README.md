@@ -23,6 +23,7 @@ The final deliverable of this project was an interactive PowerBI dashboard. This
 - **raw_data**: Contains the structured factual table dataset obtained from the Senate's website.
 - **notebooks**: Jupyter notebooks detailing data processing, enrichment, analysis, and PowerBI integration.
 - **sql_queries**: SQL queries used for data transformation and loading.
+- **vizualization**: Power BI dashboards in pdf format.
 
 ## Usage
 
